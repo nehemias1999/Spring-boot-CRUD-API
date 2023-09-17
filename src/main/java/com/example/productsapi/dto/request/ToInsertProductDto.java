@@ -1,4 +1,4 @@
-package com.example.productsapi.dto;
+package com.example.productsapi.dto.request;
 
 import javax.persistence.Id;
 import lombok.Data;
@@ -12,9 +12,8 @@ import lombok.NoArgsConstructor;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductDto {
+public class ToInsertProductDto {
 
-    private @Id Long id;
     private String name;
     private String description;
     private Long stock;
