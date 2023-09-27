@@ -85,7 +85,7 @@ Body: <br>
 
 Response: <br>
 HTTP Status: <br>
-201 CREATED if the product was successfully retrieved <br>
+201 CREATED if the product was successfully created <br>
 400 BAD REQUEST if any value in an input field is invalid <br>
 Response Body Type: JSON <br>
 Example Response Body: <br>
