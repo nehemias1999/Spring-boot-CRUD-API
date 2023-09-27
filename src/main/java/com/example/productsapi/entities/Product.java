@@ -10,10 +10,9 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "tbl_products")
 @Data
-@Getter
-@Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter @Setter
 public class Product {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)

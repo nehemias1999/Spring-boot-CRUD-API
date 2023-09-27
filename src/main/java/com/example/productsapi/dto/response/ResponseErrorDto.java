@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 
 @Data
 @AllArgsConstructor
-public class RequestErrorDto {
+public class ResponseErrorDto {
 
     private HttpStatus statusCode;
     private String errorMessage;
